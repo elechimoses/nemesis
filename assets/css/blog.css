@@ -224,7 +224,7 @@ background: rgba(92, 23, 178, 0.3);
 }
 .blog-author{
 margin-left: 5px;
-margin-top: 10px;
+margin-top: 15px;
 width: 257px;
 height: 21px;
 
@@ -245,7 +245,7 @@ position: absolute;
 width: 400px;
 height: 956px;
 left: 30px;
-top: 600px;
+top: 640px;
 
 font-family: Lato;
 font-style: normal;
