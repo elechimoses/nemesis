@@ -58,8 +58,14 @@ app.get("/", function(req, res){
 app.get("/blog", function(req, res){
   res.render("blog");
 });
-app.get("/signIn", function(req, res){
-  res.render("signin");
+app.get("/blog-post", function(req, res){
+  res.render("blog");
+});
+app.get("/blog", function(req, res){
+  res.render("blog-post");
+});
+app.get("/blog-post1", function(req, res){
+  res.render("blog-post1");
 });
 app.get("/signUp", function(req, res){
   res.render("signup", {
