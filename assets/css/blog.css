@@ -169,8 +169,53 @@ margin-top: 15px;
 margin-bottom: 20px;
 }
 @media only screen and (max-width: 700px){
+	.content{
+width: 100%;
 
-	.img-frame img{
+left: 0 ;
+top: 227px;
+}
+.blog-card{
+	display: inline-block;
+	margin: 5px;
+}
+.blog-img img{
+position:;
+width: 400px;
+height: 314px;
+left: 104px;
+background: rgba(92, 23, 178, 0.3);
+
+}
+.blog-title{
+width: 400px;
+margin-top: 5px;
+left: 104px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+text-transform: uppercase;
+
+color: #5C17B2;
+}
+.blog-con{
+width: 400px;
+height: 124px;
+left: 104px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+
+.img-frame img{
 margin:5px 0 0 5px;
 width: 400px;
 height: 327px;
